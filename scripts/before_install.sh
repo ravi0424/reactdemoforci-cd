@@ -11,6 +11,4 @@ yum install -y nodejs
 yum install -y npm
 yum install -y nginx
 
-# Allow HTTP traffic through the firewall (use firewalld for Amazon Linux)
-sudo firewall-cmd --zone=public --add-service=http --permanent
-sudo firewall-cmd --reload
+# Allo
